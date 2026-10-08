@@ -1,0 +1,6 @@
+{
+  "name": "bian-prediction", "version": "0.1.0", "private": true, "type": "module",
+  "description": "币安 BTC 五分钟涨跌交易工作台",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node --env-file-if-exists=.env server/index.mjs", "dev": "node --env-file-if-exists=.env --watch server/index.mjs", "test": "node --test test/*.test.mjs", "check": "node scripts/check.mjs" }
+}
